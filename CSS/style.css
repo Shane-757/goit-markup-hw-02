@@ -1,0 +1,24 @@
+.body {
+    font-family: Roboto;
+    font-size: 400;
+}
+.webstudio-link:hover{
+    color:red;
+    
+}
+.studio-link:hover {
+    color: red;
+    
+}
+.portfolio-link:hover {
+    color: red;
+    
+}
+.contacts-link:hover {
+    color: red;
+    
+}
+.main-service:hover {
+    color: red;
+    
+}
