@@ -1,0 +1,260 @@
+.header{
+    position: absolute;
+width: 1600px;
+height: 80px;
+left: 0px;
+top: 0px;
+background: #FFFFFF;
+}
+
+.main{
+position: absolute;
+width: 1600px;
+height: 600px;
+left: 0px;
+top: 80px;
+background: #2F303A;
+}
+
+.team{
+    position: absolute;
+width: 1600px;
+height: 648px;
+left: 0px;
+top: 1449px;
+background: #F5F4FA;
+}
+
+.footer{
+    position: absolute;
+width: 1600px;
+height: 252px;
+left: 0px;
+top: 2097px;
+background: #2F303A;
+}
+
+.header-logo{
+    position: absolute;
+width: 145px;
+height: 31px;
+left: 215px;
+top: 24px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+
+letter-spacing: 0.03em;
+}
+
+
+.header-list-link{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+list-style-type: none;
+}
+
+.header-item:nth-child(1){
+    position: absolute;
+width: 42px;
+height: 16px;
+left: 457px;
+top: 32px;
+}
+
+.header-item:nth-child(2){
+    position: absolute;
+width: 58px;
+height: 16px;
+left: 552px;
+top: 32px;
+}
+
+.header-item:nth-child(3){
+    position: absolute;
+width: 59px;
+height: 16px;
+left: 679px;
+top: 32px;
+}
+
+.header-list-contact{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #757575;
+list-style-type: none;
+}
+
+.header-item-contact:nth-child(1){
+    position: absolute;
+width: 135px;
+height: 16px;
+left: 1078px;
+top: 32px;
+}
+
+.header-item-contact:nth-child(2){
+    position: absolute;
+width: 113px;
+height: 16px;
+left: 1263px;
+top: 32px;
+}
+
+.main-logo{
+    position: absolute;
+width: 696px;
+height: 120px;
+left: 452px;
+top: 280px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+/* or 136% */
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.main-button{
+    position: absolute;
+width: 200px;
+height: 50px;
+left: 700px;
+top: 430px;
+
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+
+.features{
+    list-style:none;
+}
+
+.features-title{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+
+.features-goal{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+.features-list:nth-child(1){
+    position: absolute;
+width: 270px;
+height: 15.05px;
+left: 215px;
+top: 774px;
+}
+
+.features-list:nth-child(2){
+    position: absolute;
+width: 270px;
+height: 15.05px;
+left: 515px;
+top: 774px;
+}
+
+.features-list:nth-child(3){
+    position: absolute;
+width: 270px;
+height: 15.05px;
+left: 815px;
+top: 774px;
+}
+
+.features-list:nth-child(4){
+    position: absolute;
+width: 270px;
+height: 15.05px;
+left: 1115px;
+top: 774px;
+}
+
+.job-title{
+    position: absolute;
+width: 198px;
+height: 42px;
+left: 701px;
+top: 969px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.job-img{
+list-style: none;
+}
+.job{
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    top: 1061px;
+}
+.job:nth-child(1){
+    left: 215px;
+}
+.job:nth-child(2){
+    left: 615px;
+}
+.job:nth-child(3){
+    left: 1015px;
+}
+.team-title{
+    position: absolute;
+    width: 165px;
+    height: 42px;
+    left: 718px;
+    top: 1543px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+    
+}
+
