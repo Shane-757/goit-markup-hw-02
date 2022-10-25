@@ -1,5 +1,5 @@
 .body{
-  color: #212121;
+  text-color: #212121;
   font-family: Roboto, Raleway, sans-serif;
 }
 .header-logo, .header-link, .header-item-contact-link, .footer-logo, .footer-location, .footer-item-link{
@@ -8,11 +8,10 @@
 .header-list-link,.header-list-contact, .features-list, .job-list, .team-list, .footer-list-contact{
     list-style: none;
 }
-.hero-button{
-    cursor: pointer;
-}
 .header-link:hover,.header-item-contact-link:hover,.hero-button:hover,.footer-item-link:hover{
     color: #2196F3;
 }
-
+.button{
+    cursor: pointer;
+}
 
