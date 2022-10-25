@@ -11,7 +11,9 @@
     color:inherit;
     font-weight:700;
     font-size: 26px;
+    line-height: 1.19;
     font-family: Raleway;
+    text-decoration: none;
 }
 .header-list-link, .header-list-contact, .features-list, .job-list, .team-list, .footer-list-contact{
     list-style: none;
@@ -20,55 +22,75 @@
     color:inherit;
     font-weight: 500;
     font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
 }
 .header-item-contact-link{
     color:inherit;
     font-weight: 500;
     font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
 }
 .hero-title{
     font-weight: 900;
     font-size: 44px;
+    line-height: 1.36;
 }
 .hero-button{
     font-weight: 700;
     font-size: 16px;
+    line-height: 1.87;
     color:#FFFFFF;
     cursor: pointer;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 .features-item-title{
     font-weight: 700;
     font-size: 14px;
+    line-height: 1.14;
 }
 .features-item-text{
     font-size: 14px;
+    line-height: 1.71;
 }
 .job-title{
     font-weight: 700;
     font-size: 36px;
+    line-height: 1.16;
 }
 .team-title{
     font-weight: 700;
     font-size: 36px;
+    line-height: 1.16;
 }
 .team-item-name{
     font-weight: 500;
     font-size: 16px;
+    line-height: 1.18;
 }
 .team-item-description{
     font-size: 16px;
     color: #757575;
+    line-height: 1.18;
 }
 .footer-logo{
     font-weight: 700;
     font-size: 26px;
     font-family: Raleway;
     color:  #2196F3;
+    line-height: 1.19;
 }
 .footer-location{
     font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
 }
 .footer-item-link{
     font-size: 14px;
     color: #757575;
+    line-height: 1.71;
+    text-decoration: none;
 }
