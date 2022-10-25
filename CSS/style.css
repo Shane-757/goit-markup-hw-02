@@ -35,5 +35,40 @@
     font-size: 16px;
     color:#FFFFFF;
     cursor: pointer;
-    backgroubd:#2196F3;
+}
+.features-item-title{
+    font-weight: 700;
+    font-size: 14px;
+}
+.features-item-text{
+    font-size: 14px;
+}
+.job-title{
+    font-weight: 700;
+    font-size: 36px;
+}
+.team-title{
+    font-weight: 700;
+    font-size: 36px;
+}
+.team-item-name{
+    font-weight: 500;
+    font-size: 16px;
+}
+.team-item-description{
+    font-size: 16px;
+    color: #757575;
+}
+.footer-logo{
+    font-weight: 700;
+    font-size: 26px;
+    font-family: Raleway;
+    color:  #2196F3;
+}
+.footer-location{
+    font-size: 14px;
+}
+.footer-item-link{
+    font-size: 14px;
+    color: #757575;
 }
