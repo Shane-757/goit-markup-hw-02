@@ -1,35 +1,42 @@
+:root{
+    --main-color:#212121;
+    --second-color:#2196F3;
+    --third-color:#757575;
+    --fourth-color:#FFFFFF;
+}
+ul li{
+    list-style: none;
+    display: inline;
+}
 .header-link:hover,.header-item-contact-link:hover,.hero-button:hover:hover,.footer-item-link:hover,.navigation-button:hover{
-    color:#2196F3;
+    color:var(--second-color);
 }
 .header-link:focus,.header-item-contact-link:focus,.heor-button:focus,.footer-item-link:focus,.navigation-button:focus{
-    color:#2196F3;
+    color:var(--second-color);
 }
 .body{
     font-family: Roboto, sans-serif;
-    color: #212121;
+    color: var(--main-color);
     font-style: normal;
     font-weight: 400;
 }
 .header-logo{
-    color:inherit;
+    color:var(--main-color);
     font-weight:700;
     font-size: 26px;
     line-height: 1.19;
     font-family: Raleway;
     text-decoration: none;
 }
-.header-list-link, .header-list-contact, .features-list, .job-list, .team-list, .footer-list-contact, .portfolio-item{
-    list-style: none;
-}
 .header-link{
-    color:inherit;
+    color:var(--main-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     text-decoration: none;
 }
 .header-item-contact-link{
-    color:inherit;
+    color:var(--main-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -42,7 +49,7 @@
     font-weight: 700;
     font-size: 26px;
     font-family: Raleway;
-    color:  #2196F3;
+    color:  var(--second-color);
     line-height: 1.19;
 }
 .footer-location{
@@ -52,7 +59,7 @@
 }
 .footer-item-link{
     font-size: 14px;
-    color: #757575;
+    color: var(--third-color);
     line-height: 1.71;
     text-decoration: none;
 }
