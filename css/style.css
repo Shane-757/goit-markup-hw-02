@@ -4,7 +4,6 @@
     --primary-text-color:#757575;
     --white-color:#FFFFFF;
     --black-color: #000000;
-    
 }
 ul{
     list-style: none;
@@ -125,7 +124,34 @@ body{
     line-height: 1.18;
 }
 
+/*PORTFOLIO*/
+
+.navigation-button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    color:var(--black-color);
+    cursor: pointer;
+    width: 145px;
+    height: 38px;
+    background: var(--white-color);
+    border-radius: 4px;
+}
+.portfolio-list-header{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-title-color)
+}
+
+.portfoli-list-text{
+    font-size: 16px;
+    line-height: 1.87;
+}
+
 /*FOOTER*/
+
 .footer{
     background-color: var(--black-color);
 }
