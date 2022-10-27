@@ -37,6 +37,7 @@ body{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 .header-link:hover,
 .header-link:focus{
@@ -52,6 +53,7 @@ body{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .header-item-contact-link:hover,
@@ -59,6 +61,7 @@ body{
     color:var(--accent-color)
 }
 
+/*PORTFOLIO*/
 
 .navigation-button{
     font-weight: 500;
@@ -71,25 +74,48 @@ body{
     background: var(--white-color);
     border-radius: 4px;
 }
+.portfolio-list-header{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-title-color)
+}
 
+.portfoli-list-text{
+    font-size: 16px;
+    line-height: 1.87;
+}
 
 /*FOOTER*/
 
+.footer{
+    background-color: var(--black-color);
+}
 .footer-logo{
     font-weight: 700;
     font-size: 26px;
     font-family: Raleway;
-    color:  var(--primary-title-color);
+    color:  var(--accent-color);
     line-height: 1.19;
 }
 .footer-location{
     font-size: 14px;
     line-height: 1.71;
     text-decoration: none;
+    color: var(--white-color);
+}
+.footer-location:hover,
+.footer-location:hover{
+    color: var(--accent-color);
 }
 .footer-item-link{
     font-size: 14px;
     color: var(--primary-text-color);
     line-height: 1.71;
     text-decoration: none;
+}
+.footer-item-link:hover,
+.footer-item-link:focus{
+    color: var(--accent-color);
 }
