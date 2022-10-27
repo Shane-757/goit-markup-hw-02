@@ -142,6 +142,7 @@ body{
     color:var(--black-color);
     cursor: pointer;
     background: var(--white-color);
+    
 }
 .navigation-button:hover,
 .navigation-button:focus{
