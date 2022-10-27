@@ -88,6 +88,10 @@ body{
     box-shadow: var(--accent-color);
     border-radius: 4px;
 }
+.hero-button:hover,
+.hero-button:focus{
+    color:red;
+}
 
 /*FEATURES*/
 
