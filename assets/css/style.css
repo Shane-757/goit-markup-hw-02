@@ -95,6 +95,7 @@ body{
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
+    color:var(--primary-title-color)
 }
 .features-item-text{
     font-size: 14px;
@@ -107,20 +108,22 @@ body{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
+    color: var(--primary-title-color)
 }
 .team-title{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
+    color: var(--primary-title-color);
 }
 .team-item-name{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
+    color: var(--primary-title-color);
 }
 .team-item-description{
     font-size: 16px;
-    color: var(--primary-text-color);
     line-height: 1.18;
 }
 
