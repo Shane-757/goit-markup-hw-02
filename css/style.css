@@ -4,6 +4,7 @@
     --primary-text-color:#757575;
     --white-color:#FFFFFF;
     --black-color: #000000;
+    --backgroud-color:#2F303A;
 }
 ul{
     list-style: none;
@@ -49,7 +50,7 @@ body{
 }
 
 .header-item-contact-link{
-    color:var(--primary-title-color);
+    color:var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -63,7 +64,7 @@ body{
 
 /*Hero*/
 .hero-section{
-    background-color: var(--black-color);
+    background-color:var(--backgroud-color);
 }
 
 .hero-title{
@@ -144,7 +145,8 @@ body{
 }
 .navigation-button:hover,
 .navigation-button:focus{
-    color: var(--accent-color);
+    background-color: var(--accent-color);
+    color:var(--white-color)
 }
 .portfolio-list-header{
     font-weight: 700;
@@ -162,7 +164,7 @@ body{
 /*FOOTER*/
 
 .footer{
-    background-color: var(--black-color);
+    background-color:var(--backgroud-color);
 }
 .footer-logo{
     font-weight: 700;
@@ -175,6 +177,7 @@ body{
     font-size: 14px;
     line-height: 1.71;
     text-decoration: none;
+    font-style: normal;
     color: var(--white-color);
 }
 .footer-location:hover,
@@ -183,9 +186,11 @@ body{
 }
 .footer-item-link{
     font-size: 14px;
-    color: var(--primary-text-color);
+    color: var(--white-color);
+    opacity: .6;
     line-height: 1.71;
     text-decoration: none;
+    font-style: normal;
 }
 .footer-item-link:hover,
 .footer-item-link:focus{
