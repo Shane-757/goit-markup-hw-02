@@ -5,6 +5,7 @@
     --white-color:#FFFFFF;
     --black-color: #000000;
     --backgroud-color:#2F303A;
+    --hero-hover-color:#00008b;
 }
 ul{
     list-style: none;
@@ -91,7 +92,7 @@ body{
 }
 .hero-button:hover,
 .hero-button:focus{
-    color:red;
+    background-color:var(--hero-hover-color);
 }
 
 /*FEATURES*/
