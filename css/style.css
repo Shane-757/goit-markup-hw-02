@@ -8,10 +8,13 @@
     --hero-hover-color:#00008b;
     --background-team-color:#F5F4FA;
 }
+
 ul{
     list-style: none;
-    
 }
+
+
+
 a{
     text-decoration: none;
 }
@@ -27,6 +30,7 @@ body{
 }
 
 /*HEADER*/
+
 .header-logo{
     color:var(--accent-color);
     font-weight:700;
@@ -34,7 +38,9 @@ body{
     line-height: 1.19;
     font-family: Raleway;
 }
-
+.header-list-link{
+    display:flex; 
+}
 .header-link{
     color:var(--primary-title-color);
     font-weight: 500;
@@ -50,7 +56,10 @@ body{
     color:var(--accent-color)
 
 }
-
+.header-list-contact{
+    display:flex;
+    justify-content: right;  
+}
 .header-item-contact-link{
     color:var(--primary-text-color);
     font-weight: 500;
@@ -102,7 +111,7 @@ body{
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
-    color:var(--primary-title-color)
+    color:var(--primary-title-color);
 }
 .features-item-text{
     font-size: 14px;
@@ -111,17 +120,21 @@ body{
 
 /*JOB*/
 
-.job-title{
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    color: var(--primary-title-color)
-}
-.team-title{
+.title{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     color: var(--primary-title-color);
+    text-align: center;
+}
+.job-list{
+    display: flex;
+}
+
+/*TEAM*/
+
+.team-list{
+    display: flex;
 }
 .team-item-name{
     font-weight: 500;
@@ -134,9 +147,12 @@ body{
     line-height: 1.18;
 }
 
-
 /*PORTFOLIO*/
 
+.portfolio-filters-list{
+    display: flex;
+    justify-content: center;
+}
 .navigation-button{
     font-weight: 500;
     font-size: 16px;
@@ -151,6 +167,7 @@ body{
     background-color: var(--accent-color);
     color:var(--white-color)
 }
+
 .portfolio-list-header{
     font-weight: 700;
     font-size: 18px;
