@@ -8,11 +8,7 @@
     --hero-hover-color:#00008b;
     --background-button-color:#F5F4FA;
 }
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
+
 
 ul{
     list-style: none;
